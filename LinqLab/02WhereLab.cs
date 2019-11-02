@@ -15,31 +15,41 @@ namespace LinqLab
         }
         public List<Sample> IdMoreThan8()
         {
-            var result = Source.Where(d => d.Id > 8).ToList();
-            return result;
+            return null;
+
+            //var result = Source.Where(d => d.Id > 8).ToList();
+            //return result;
         }
 
         public List<Sample> UserNameStartWithZ()
         {
-            var result = Source.Where(d => d.UserName.StartsWith("Z")).ToList();
-            return result;
+            return null;
+
+            //var result = Source.Where(d => d.UserName.StartsWith("Z")).ToList();
+            //return result;
         }
 
         public List<Sample> UserNameContainWithK()
         {
-            var result = Source.Where(d => d.UserName.Contains("K")).ToList();
-            return result;
+            return null;
+
+            //var result = Source.Where(d => d.UserName.Contains("K")).ToList();
+            //return result;
         }
 
         public List<Sample> UserNameIsDemoAndZoe()
         {
-            var whereStr = new[] {"Demo","Zoe" };
-            var result = Source.Where(d => whereStr.Contains(d.UserName)).ToList();
-            return result;
+            return null;
+
+            //var whereStr = new[] {"Demo","Zoe" };
+            //var result = Source.Where(d => whereStr.Contains(d.UserName)).ToList();
+            //return result;
         }
 
         public bool IfThereIsDataWithIdEqual99()
         {
+            return false;
+
             var result = Source.Any(d => d.Id == 99);
             //var result = Source.FirstOrDefault(d => d.Id == 99) != null;
 

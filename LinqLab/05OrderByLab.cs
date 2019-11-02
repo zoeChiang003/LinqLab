@@ -16,20 +16,26 @@ namespace LinqLab
 
         public List<Sample> OrderByWithId()
         {
-            var result = Source.OrderBy(d => d.Id).ToList();
-            return result;
+            return null;
+
+            //var result = Source.OrderBy(d => d.Id).ToList();
+            //return result;
         }
 
         public List<Sample> OrderByDescendingWithId()
         {
-            var result = Source.OrderByDescending(d => d.Id).ToList();
-            return result;
+            return null;
+
+            //var result = Source.OrderByDescending(d => d.Id).ToList();
+            //return result;
         }
 
         public List<Sample> OrderByPriceAndThenOrderById()
         {
-            var result = Source.OrderBy(d => d.Price).ThenBy(d=>d.Id).ToList();
-            return result;
+            return null;
+
+            //var result = Source.OrderBy(d => d.Price).ThenBy(d=>d.Id).ToList();
+            //return result;
         }
     }
 }
