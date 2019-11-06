@@ -48,7 +48,6 @@
   <ItemGroup>
     <Compile Include="01FirstAndSingleLab.cs" />
     <Compile Include="03GroupByLab.cs" />
-    <Compile Include="Helper.cs" />
     <Compile Include="05OrderByLab.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

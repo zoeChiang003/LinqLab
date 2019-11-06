@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace LinqLab
 {
@@ -14,51 +15,35 @@ namespace LinqLab
         public Sample UserNameEqualZoeWithFirst()
         {
             return null;
-            //var result = Source.Where(d => d.UserName == "Zoe").First();
-            //return result;
         }
 
         public Sample UserNameEqualAmyWithFirstOrDefault()
         {
             return null;
-
-            //var result = Source.Where(d => d.UserName == "Amy").FirstOrDefault();
-            //return result;
         }
 
         public Sample UserNameEqualAmyWithFirst()
         {
             return null;
-
-            //var result = Source.Where(d => d.UserName == "Amy").First();
-            //return result;
         }
 
         public Sample UserNameEqualZoeWithSingle()
         {
             return null;
-
-            //var result = Source.Where(d => d.UserName == "Zoe").Single();
-            //return result;
         }
 
         public Sample UserNameEqualStephenWithSingle()
         {
-            //var result = Source.Where(d => d.UserName == "Stephen").Single();
-            //return result;
+            return null;
         }
         public Sample UserNameEqualStephenWithSingleOrDefault()
         {
-            //var result = Source.Where(d => d.UserName == "Stephen").SingleOrDefault();
-            //return result;
+            return null;
         }
 
         public Sample UserNameEqualAmyWithSingleOrDefault()
         {
             return null;
-
-            //var result = Source.Where(d => d.UserName == "Amy").SingleOrDefault();
-            //return result;
         }
     }
 }
